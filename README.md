@@ -42,8 +42,6 @@ This package was created by dk_k_934.
 This package is licensed under the ISC license.
 
 
-Please replace the content inside the backticks with your own content as needed. This is just a basic template and may not cover all the details of your project. Always make sure to provide enough information for others to understand how to install and use your project. If your project has additional requirements or complex installation steps, be sure to include those in the README as well. Happy coding! 😊
-
 
 
 
