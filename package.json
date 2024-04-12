@@ -1,5 +1,5 @@
 {
-  "name": "git_command",
+  "name": "git-go",
   "version": "1.0.0",
   "description": "The code provided is a Node.js script that automates the execution of a series of Git commands using the child_process module",
   "main": "app.js",
