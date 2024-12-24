@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { exec } from 'child_process';
 
-let commands = ['git init', 'git status', 'git add .','git status'];
+let commands = ['git init','git add .','git status'];
 
 let execPromisified = (command) => {
     return new Promise((resolve, reject) => {
