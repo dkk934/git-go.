@@ -2,7 +2,6 @@
 import { exec } from 'child_process';
 
 let commands = ['git init','git add .','git status'];
-
 let execPromisified = (command) => {
     return new Promise((resolve, reject) => {
         exec(command, (error, stdout, stderr) => {
@@ -19,7 +18,6 @@ let execPromisified = (command) => {
         });
     });
 };
-
 (async () => {
     for (let command of commands) {
         try {
