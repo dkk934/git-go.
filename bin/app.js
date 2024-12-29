@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { exec } from 'child_process';
 
-let commands = ['git init','git add .','git status'];
+let commands = `./bash.sh`;
 let execPromisified = (command) => {
     return new Promise((resolve, reject) => {
         exec(command, (error, stdout, stderr) => {
@@ -18,13 +18,12 @@ let execPromisified = (command) => {
         });
     });
 };
+
 (async () => {
-    for (let command of commands) {
         try {
             await execPromisified(command);
         } catch (error) {
             console.log(`An error occurred: ${error}`);
         }
-    }
     console.log('All commands executed.');
 })();
