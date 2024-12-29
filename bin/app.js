@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { exec } from 'child_process';
 
-let commands = `./bash.sh`;
+let commands = "bash bin/bash.sh";
 let execPromisified = (command) => {
     return new Promise((resolve, reject) => {
         exec(command, (error, stdout, stderr) => {
@@ -13,7 +13,7 @@ let execPromisified = (command) => {
                 console.log(`stderr: ${stderr}`);
                 reject(stderr);
             }
-            console.log(`stdout: ${command} = ${stdout}`);
+            console.log(`stdout: ${stdout}`);
             resolve(stdout);
         });
     });
@@ -21,9 +21,9 @@ let execPromisified = (command) => {
 
 (async () => {
         try {
-            await execPromisified(command);
+            await execPromisified(commands);
+            
         } catch (error) {
-            console.log(`An error occurred: ${error}`);
-        }
-    console.log('All commands executed.');
+}
+        console.log('All commands executed.');
 })();
