@@ -35,19 +35,20 @@ This project provides an automated way to create, clone, and initialize a GitHub
 
 ---
 
+## Installation and Usage Guide for `git-go934`
+
+### **Installation**
+
+#### **Global Installation** (Recommended for CLI tools):
+```bash
+npm install -g git-go934
+```
 ## Usage
-
-1. **Clone the Project**:
-2. **Run the Automation**:
-   - Execute the Node.js script:
-     ```bash
-     node app.js
-     ```
-
-3. **Monitor Progress**:
-   - The Bash script will handle repository creation and display a loading animation during execution.
-
----
+Once installed globally, you can use the `git-go` command directly in your terminal:
+```bash
+git-go
+```
+This will execute the script located in `./bin/app.js`.
 
 ## Example Workflow
 
