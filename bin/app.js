@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { spawn } from 'child_process';
-// import
+
 const runCommand = (command, args = []) => {
     return new Promise((resolve, reject) => {
         const process = spawn(command, args, { stdio: 'inherit' });
