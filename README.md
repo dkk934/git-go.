@@ -35,7 +35,7 @@ This project provides an automated way to create, clone, and initialize a GitHub
 
 ---
 
-## Installation and Usage Guide for `git-go934`
+## Installation and Usage Guide for `git-go-934`
 
 ### **Installation**
 
@@ -59,7 +59,7 @@ This will execute the script located in `./bin/app.js`.
 
 ---
 
-## Customization
+## For Contribution
 
 - **Repository Name and Description**:
   - Modify the `REPO_NAME` and `DESCRIPTION` variables in `bash.sh`.
