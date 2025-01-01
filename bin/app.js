@@ -18,7 +18,7 @@ const runCommand = (command, args = []) => {
 
 (async () => {
     try {
-        await runCommand('bash', ['bin/bash.sh']);
+        await runCommand('bash', ['AppData/Roaming/npm/node_modules/git-go-934/bin/bash.sh']);
     } catch (error) {
         console.error(`Execution failed: ${error}`);
     } finally {
