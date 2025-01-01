@@ -1,6 +1,6 @@
 {
   "name": "git-go-934",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "description": "The code provided is a Node.js script that automates the execution of a series of Git commands using the child_process module",
   "main": "app.js",
   "type": "module",
